@@ -1,7 +1,7 @@
-import "./App.css";
+import React from "react";
+import { VehicleContainer } from "./pages/vehicle/view/VehicleContainer";
+import "./scss/style.css";
 
-function App() {
-  return <div className="App">TEST</div>;
-}
+export const App: React.FC = () => <VehicleContainer />;
 
 export default App;
